@@ -66,7 +66,35 @@ const styles = StyleSheet.create({
         flex: 1,
         width: '100%',
         padding: 24,
-    }
+    },
+
+    email: {
+        backgroundColor: '#FA1A67',
+        height: 49,
+        width: 220,
+        position: 'absolute',
+        borderRadius: 50,
+        justifyContent: 'center',
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.4,
+        shadowRadius: 3,
+        bottom: 200,
+        right: 100,
+    },
+
+    whiteText: {
+        color: 'white',
+    },
+
+    input: {
+        height: 48,
+        marginBottom: 16,
+        padding: 8,
+        borderBottomColor: '#000000',
+        borderBottomWidth: 1
+    },
 });
 
 export default LoginScreen;

@@ -41,7 +41,7 @@ class LoginScreen extends React.Component {
                             const resetAction = StackActions.reset({
                                 index: 0,
                                 actions: [
-                                NavigationActions.navigate({ routeName: 'Home' }),
+                                NavigationActions.navigate({ routeName: 'Calc' }),
                                 ],
                             });
                             this.props.navigation.dispatch(resetAction);
